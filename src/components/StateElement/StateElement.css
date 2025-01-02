@@ -1,0 +1,46 @@
+.state__element__body {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.state__element__value {
+    color: rgba(36, 36, 36, 0.80);
+    font-family: 'Inter';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.state__element__value--true {
+    color: rgba(36, 36, 36, 0.80);
+}
+
+.state__element__value--false {
+    color: #E1E1E1;
+}
+
+.state__element__time {
+    color: rgba(36, 36, 36, 0.40);
+    font-family: 'Inter';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.state__stick {
+    width: 8px;
+    height: 80px;
+    flex-shrink: 0;
+    margin-left: 14px;
+}
+
+.state__stick--true {
+    background: #00BB6C;
+}
+
+.state__stick--false {
+    background: #F0F0F0;
+}

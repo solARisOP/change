@@ -1,0 +1,17 @@
+.layout {
+    border-radius: 12px;
+    border: 1px solid #E1E6E6;
+    background: #FFF;
+    display: flex;
+    width: 820px;
+    height: 552px;
+    flex-shrink: 0;
+    padding: 30px;
+    align-items: center;
+}
+
+.ruler {
+    width: 1px;
+    height: 460px;
+    background: #E1E6E6;
+}

@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {    
+    "typeRoots": ["./node_modules/@types", "./@types"],
+    "jsx": "react-jsx",
+    // "baseUrl": ".",
+    // "paths": {
+    //   "@e-llm-studio/streaming-response": ["@types/@e-llm-studio/streaming-response"]
+    // }
+  },
+  "include": [
+    "src",
+    // "@types"
+  ]
+}

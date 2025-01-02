@@ -1,0 +1,21 @@
+
+.timer__body {
+    display: flex;
+    flex : 1 1 0%;
+    flex-direction: column;
+    align-items: center;
+    gap: 74px;
+    justify-content: center;
+    gap: 74px;
+    div {
+        /* max-width: 400px; */
+        color: #567F84;
+        text-align: center;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        align-self: stretch;
+    }
+}
